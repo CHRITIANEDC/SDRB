@@ -96,9 +96,9 @@
                             <form action="register" name="register" method="post" onsubmit="return isValidate()" >
                                 <h2 id="register-heading">请注册</h2>
                                 <label class="register-lable">用户名：</label>
-                                <input class="register-input" type="text" name="user.username" id="username" placeholder="Username">
+                                <input class="register-input" type="text" name="user.user_Name" id="username" placeholder="Username">
                                 <label class="register-lable">设置密码：</label>
-                                <input class="register-input" type="password" name="user.password" id="userpassword" placeholder="Password">
+                                <input class="register-input" type="password" name="user.user_Password" id="userpassword" placeholder="Password">
                                 <label class="register-lable">确认密码：</label>
                                 <input class="register-input" type="password" name="userpass1" id="userpass1" placeholder="Password">
                                 <input id="register-btn" type="submit" value="注册">

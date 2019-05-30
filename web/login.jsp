@@ -2,7 +2,7 @@
          pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
+<head
     <title>Login</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -78,9 +78,9 @@
                             <form action="logincheck" method="post">
                                 <h2 id="login-heading">请登录</h2>
                                 <label class="login-lable">用户名：</label>
-                                <input class="login-input" type="text" name="user.username" placeholder="Username">
+                                <input class="login-input" type="text" name="user.user_Name" placeholder="Username">
                                 <label class="login-lable">密码：</label>
-                                <input class="login-input" type="password" name="user.password" placeholder="Password">
+                                <input class="login-input" type="password" name="user.user_Password" placeholder="Password">
                                 <input id="login-btn" type="submit" value="登录">
                             </form>
                         </div><!-- #form-login -->
